@@ -1,0 +1,10 @@
+
+Cusotm link for socials
+
+add js for them 
+// Get the element by its ID
+const linkElement = document.getElementById("myLink");
+
+// Change the href value
+linkElement.href = "https://www.example.com/new-destination";
+like this 

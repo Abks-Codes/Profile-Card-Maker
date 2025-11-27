@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="stylesheet" href="login.css">
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Montserratital,wght@0,100..900;1,100..900&family=Orbitronwght@400..900&family=Rubik+Bubbles&display=swap');
+</style>
+</head>
+<body>
+
+
+   <div id="container">
+  
+  <header>
+  <h1 id="title">Kirito's Web Profile Maker</h1>
+  </header>
+      <div class="info">
+      <form id="myForm">
+
+  <div class="form-group">
+    <label for="username">Username</label>
+    <input type="text" id="username">
+  </div>
+
+  <div class="form-group">
+    <label for="customBackground">Custom Background Video Link</label>
+    <input type="text" id="customBackground">
+  </div>
+
+   <div class="form-group">
+    <label for="profile">Profile-Picture</label>
+    <input type="file" id="profile" >
+  </div>
+
+  <div class="form-group">
+    <label for="name">Display Name</label>
+    <input type="text" id="name">
+  </div>
+
+  <div class="form-group">
+    <label for="quote">Display Quote</label>
+    <input type="text" id="quote">
+  </div>
+
+  <div class="form-group">
+    <label for="discordLink">Discord Link</label>
+    <input type="text" id="discordLink">
+  </div>
+
+  <div class="form-group">
+    <label for="spotifyLink">Spotify Link</label>
+    <input type="text" id="spotifyLink">
+  </div>
+
+  <div class="form-group">
+    <label for="twitchLink">Twitch Link</label>
+    <input type="text" id="twitchLink">
+  </div>
+
+  <button id="submitBtn" type="button" onclick="generate()">Generate</button>
+
+</form>
+
+</div>
+      <footer>
+        <div id="end">
+          <div id="updates">
+          <h2>Features that are coming soon</h2>
+              <ul>
+                <li>Custom PNG for socials and links</li>
+                <li>Add links to socials of you choice</li>
+                <li>Adding music of your choice</li>
+                
+              </ul>
+           </div>
+           <div id="review">
+            <p>Thank you for visiting us, if there is anything specific you want use to add please feel free to type it on suggestion / feedback box down below.</p>
+            <label for="feedback">Enter your feedback </label> <br>
+            <textarea id="suggestion" name="feedback/suggestion" rows="5" cols="33" form="myForm"></textarea><br>
+            <button>Submit</button>
+           
+           </div>
+
+           <p>&copy; 2025 Kirito. All Rights Reserved To Kirito The Goat You Heard ✋🏿🤨🤚🏿</p>
+              
+        </div>
+       </footer>
+      
+
+   </div>
+    
+
+    <script src="index.js"></script>
+</body>
+</html>
