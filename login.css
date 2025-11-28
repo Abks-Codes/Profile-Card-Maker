@@ -45,6 +45,8 @@ input {
   border-bottom: 2px solid black;
   font-size: 1rem;
   outline: none;
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 button {

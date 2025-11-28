@@ -1,5 +1,4 @@
-
-Cusotm link for socials
+// styling is done now focus on 
 
 add js for them 
 // Get the element by its ID
