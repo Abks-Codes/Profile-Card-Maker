@@ -41,3 +41,7 @@ stay tuned for more upcoming projects ✨
 📜 License
 
 This project is licensed under the MIT License
+
+
+Nov 27 update: visual fixes and started JS functionality work
+
