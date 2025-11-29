@@ -45,3 +45,4 @@ This project is licensed under the MIT License
 
 Nov 27 update: visual fixes and started JS functionality work
 
+Nov 28 update: tried out local storage fucntion to save user input, isn't working properly yet but trying
