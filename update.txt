@@ -1,9 +1,6 @@
 // styling is done now focus on 
 
-add js for them 
-// Get the element by its ID
-const linkElement = document.getElementById("myLink");
+//make changes to id in profile html for discord twitch and spotify links 
 
-// Change the href value
-linkElement.href = "https://www.example.com/new-destination";
-like this 
+
+//add a file reader for profile pic file
