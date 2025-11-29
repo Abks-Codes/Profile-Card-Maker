@@ -72,13 +72,13 @@ grid-template-columns: repeat(3, 1fr);
 gap: 1px;
 }
 
-#discordImg, #spotifyImg, #twitchImg
+#discordLink, #spotifyLink, #twitchLink
 {
   width: 50%;
 
 }
 
-#discordImg:hover, #spotifyImg:hover, #twitchImg:hover
+#discordLink:hover, #spotifyLink:hover, #twitchLink:hover
 { 
   width: 52%;
 }
