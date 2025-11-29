@@ -17,16 +17,15 @@ event.preventDefault();
     const spotifyLink = document.getElementById("spotifyLink").value;
     const twitchLink = document.getElementById("twitchLink").value;
 
-    /*  localStorage.setItem("username", username);
+     localStorage.setItem("username", username);
    localStorage.setItem("background", background);
   localStorage.setItem("name", name);
     localStorage.setItem("quote", quote);
     localStorage.setItem("discordLink", discordLink);
     localStorage.setItem("spotifyLink", spotifyLink);
     localStorage.setItem("twitchLink", twitchLink);
-
-    displayName.textContent = `${username}`;
+    
     window.location.href = "index.html";
- */
+
 
 }
